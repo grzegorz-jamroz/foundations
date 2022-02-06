@@ -1,0 +1,22 @@
+{
+    "name": "grzegorz-jamroz/foundations",
+    "description": "Project contains fundamental interfaces for iFrost packages.",
+    "authors": [
+        {
+            "name": "Grzegorz Jamróz",
+            "email": "grzegorz.jamrooz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ifrost\\Foundations\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.4",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    }
+}
