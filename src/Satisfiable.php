@@ -6,5 +6,5 @@ namespace Ifrost\Foundations;
 
 interface Satisfiable
 {
-    public function isSatisfied(): bool;
+    public function isSatisfied(mixed $value): bool;
 }
